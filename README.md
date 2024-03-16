@@ -13,31 +13,7 @@ Contains 407 columns representing symptoms and 135 rows containing disease names
 Each column except the target column represents a symptom with binary values.
 
 # Methodology:
-Data preprocessing
-
-Splitting and encoding
-
-Model building: Support Vector Machines (SVC), Gaussian Naive Bayes, Random Forest
-
-Model training and evaluation
-
-Disease prediction function development
-
-Pickling the files
-
-Loading pretrained models
-
-Setting Open API key
-
-Flask connection
-
-User's symptoms processing
-
-Connection with a database
-
-Function to get disease information using OpenAI
-
-Displaying info to the user
+The data preprocessing phase involves preparing the dataset for model training by performing tasks such as splitting the data and encoding categorical variables. Following preprocessing, various machine learning models including Support Vector Machines (SVC), Gaussian Naive Bayes, and Random Forest are built for disease prediction. These models are then trained and evaluated to assess their performance in accurately predicting diseases based on input symptoms. Additionally, a disease prediction function is developed, leveraging pretrained models and integrating OpenAI for retrieving disease information. The Flask connection facilitates interaction with users, processing their symptoms, and retrieving relevant disease information from a database. Ultimately, the system displays comprehensive information about predicted diseases, aiding users in understanding their health conditions effectively.
 
 # Python Libraries:
 
